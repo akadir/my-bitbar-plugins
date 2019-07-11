@@ -14,7 +14,7 @@
 
 ## Descriptions
 
-## 01- Display Yahoo Currency Rates
+## 01-Display Yahoo Currency Rates
 
 Plugin to display currency rates from [Yahoo Finance](https://finance.yahoo.com)
 
@@ -29,7 +29,7 @@ currSymbolOrName = "€"
 
 ![currency-converter](/images/currency-converter.png)
 
-## 02- Display Command Output From Remote Machine
+## 02-Display Command Output From Remote Machine
 
 Plugin to display command output from remote machine.
 
@@ -52,7 +52,7 @@ commands['Hw'] = 'echo HelloWorld'
 
 ![display-command-output-from-remote-machine](/images/display-command-output-from-remote-machine.png)
 
-## 03- Display Tweet Count of Twitter Account
+## 03-Display Tweet Count of Twitter Account
 
 Plugin to display tweet count of twitter account.
 
