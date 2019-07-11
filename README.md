@@ -1,6 +1,6 @@
 # my-bitbar-plugins
 
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/akadir/my-bitbar-plugins/blob/master/LICENSE)
 
 ## Installation
 - Install [BitBar](https://getbitbar.com/)
