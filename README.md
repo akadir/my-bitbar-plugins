@@ -54,7 +54,7 @@ commands['Hw'] = 'echo HelloWorld'
 
 ## 03-Display Tweet Count of Twitter Account
 
-Plugin to display tweet count of twitter account.
+Plugin to display tweet count of twitter account with latest tweet's timestamp.
 
 Set `username`variable in [display-tweet-count.py](/display-tweet-count.py) file.
 

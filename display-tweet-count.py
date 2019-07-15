@@ -17,8 +17,9 @@ html_page = urllib2.urlopen(req)
 
 if html_page.getcode() == 200:
     soup = BeautifulSoup(html_page,"html.parser")
+    latest_tweet_time = soup.find('td', attrs={'class':'timestamp'})
     tweet_count = soup.find('div', attrs={'class':'statnum'})
-    print tweet_count.string.rstrip("\n\r")
+    print tweet_count.string.rstrip("\n\r") + " - " + latest_tweet_time.text.lstrip("\n\r").rstrip("\n\r")
  #   for div in soup.find_all('div', attrs={'class':'statnum'}):
  #       print div.string
 else:
@@ -26,4 +27,3 @@ else:
 
 print "---"
 print username
-
