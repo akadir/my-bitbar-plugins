@@ -18,13 +18,13 @@
 
 Plugin to display currency rates from [Yahoo Finance](https://finance.yahoo.com)
 
-Set `currId` and `currSymbolOrName` variables in [currency-converter.py](/currency-converter.py) file.
+Put yahoo currency symbols as key and id's as value into `currencies` dictionary in [currency-converter.py](/currency-converter.py) file.
 
 <b>ex:</b>
 
 ```python
-currId = "EURTRY=X"
-currSymbolOrName = "€"
+currencies['$'] = 'TRY=X'
+currencies['€'] = 'EURTRY=X'
 ```
 
 ![currency-converter](/images/currency-converter.png)
