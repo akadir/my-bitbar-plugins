@@ -11,6 +11,7 @@
 1. [Display Yahoo Currency Rates](#01-display-yahoo-currency-rates)
 2. [Display Command Output From Remote Machine](#02-display-command-output-from-remote-machine)
 3. [Display Tweet Count of Twitter Account](#03-display-tweet-count-of-twitter-account)
+4. [Display Subscriber Count of Youtube Account](#04-display-subscriber-count-of-youtube-account)
 
 ## Descriptions
 
@@ -56,7 +57,7 @@ commands['Hw'] = 'echo HelloWorld'
 
 Plugin to display tweet count of twitter account with latest tweet's timestamp.
 
-Set `username`variable in [display-tweet-count.py](/display-tweet-count.py) file.
+Set `username` variable in [display-tweet-count.py](/display-tweet-count.py) file.
 
 <b>ex:</b>
 
@@ -65,3 +66,17 @@ username = "VENETHIS"
 ```
 
 ![display-tweet-count](/images/display-tweet-count.png)
+
+## 04-Display Subscriber Count of Youtube Account
+
+Plugin to display subscriber count of youtube account.
+
+Set `account_name` variable in [display-youtube-subscriber-count.py](/display-youtube-subscriber-count.py) file.
+
+<b>ex:</b>
+
+```python
+username = "Besiktas"
+```
+
+![display-tweet-count](/images/display-youtube-subscriber-count.png)
