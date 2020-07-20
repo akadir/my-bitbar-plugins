@@ -76,7 +76,7 @@ Set `account_name` variable in [display-youtube-subscriber-count.py](/display-yo
 <b>ex:</b>
 
 ```python
-username = "Besiktas"
+account_name = "Besiktas"
 ```
 
 ![display-tweet-count](/images/display-youtube-subscriber-count.png)
